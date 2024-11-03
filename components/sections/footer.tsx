@@ -29,6 +29,8 @@ export default function Footer() {
                   <Link href="/" className="cursor-pointer">
                      {siteConfig.name}
                   </Link>
+                  {' - '}
+                  Made with ❤️ by <Link href="https://twitter.com/bhataasim9" className="cursor-pointer">Bhat Aasim</Link>
                </span>
                <div className='flex items-center justify-end gap-6'>
                   {siteConfig.footer.map((link) => (
